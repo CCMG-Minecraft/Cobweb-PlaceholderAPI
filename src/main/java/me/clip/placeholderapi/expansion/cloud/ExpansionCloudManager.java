@@ -272,10 +272,12 @@ public class ExpansionCloudManager {
         }
 
         if(ex.getName().equalsIgnoreCase("Javascript")) {
-            Player p = Bukkit.getPlayer(player);
-            if(p != null) {
+            if(player != null) {
+                Player p = Bukkit.getPlayer(player);
                 Msg.msg(p, "&cThis expansion is disabled on Cobweb for security purposes.");
             }
+            plugin.getLogger()
+                    .warning("The Javascript expansion is disabled on Cobweb for security purposes.");
             return;
         }
 
