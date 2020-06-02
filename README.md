@@ -1,3 +1,12 @@
+# Cobweb Fork
+This is a forked version of PlaceholderAPI by `clip` and `Glare`.
+The original source code can be found at https://github.com/PlaceholderAPI/PlaceholderAPI
+
+Changes:
+```
+- Disabled the 'Javascript' expansion
+```
+---
 [issues]: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
 [licenseImg]: https://img.shields.io/github/license/PlaceholderAPI/PlaceholderAPI.svg
 [license]: https://github.com/PlaceholderAPI/PlaceholderAPI/blob/master/LICENSE
